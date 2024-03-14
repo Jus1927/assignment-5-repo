@@ -11,12 +11,12 @@ app.get('/', (req, res) => {
 
 // Serve the two.html file at the /two endpoint
 app.get('/two', (req, res) => {
-    res.sendFile(path.join(__dirname, 'two.html'));
+    res.sendFile(path.join(__dirname, 'views/two.html'));
 });
 
 // Serve the three.html file at the /three endpoint
 app.get('/three', (req, res) => {
-    res.sendFile(path.join(__dirname, 'three.html'));
+    res.sendFile(path.join(__dirname, 'views/three.html'));
 });
 
 // Start the server
