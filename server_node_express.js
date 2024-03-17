@@ -4,18 +4,19 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 
+
 // Serve the index.html file at the root endpoint
-app.get('/', (req, res) => {
+app.get('/assignment-5-repo/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Serve the two.html file at the /two endpoint
-app.get('/two', (req, res) => {
+app.get('/assignment-5-repo/two', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/two.html'));
 });
 
 // Serve the three.html file at the /three endpoint
-app.get('/three', (req, res) => {
+app.get('/assignment-5-repo/three', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/three.html'));
 });
 
