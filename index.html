@@ -34,6 +34,49 @@
 
     <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
     <p class="js-question">
+        It is possible to include JavaScript in an HTML file either by linking an external 
+        JavaScript file or by including JavaScript code directly within the HTML file.
+
+        This <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_JavaScript_within_a_webpage">
+            mdn web docs page</a>
+
+        explains how to include JavaScript using both of the methods describe above.
+
+        <br></br>
+
+        <b>Linking an External JavaScript File:</b>
+        <br></br>
+
+        In order to execute a JavaScript script, you can include a <code>&ltscript&gt</code>
+        tag. The <code>src</code> attribute will contain a file path to the JavaScript file 
+        you want to execute. An example <code>&ltscript&gt</code> tag is shown below:
+        <br></br>
+
+        <code>&ltscript src="scripts/someScript.js"&gt&lt/script&gt</code>
+        <br></br>
+
+        <b>Writing JavaScript with an HTML file:</b>
+        <br></br>
+
+        Alternatively, you can include JavaScript code directly within the HTML file 
+        by putting the code between <code>&ltscript&gt</code> tags. 
+        An example of this is shown below: <br></br>
+
+        <code>
+            &ltscript&gt
+            <br></br>
+            console.log("This is a JavaScript statement");
+            <br></br>
+            &lt/script&gt
+        </code>
+
+        <script>
+            console.log("This is a JavaScript statement included in an HTML file.")
+        </script>
+        <br></br>
+
+        If you inspect the page, you can see this statement printed in the console.
+          
 
     </p>
 
