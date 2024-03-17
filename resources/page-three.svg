@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 100">
+    <path fill="none" stroke="lightgrey" d="M20,20 20,70 70,70 70,20 z" />
+    <circle r="2" fill="red">
+        <animateMotion dur="15s" repeatCount="indefinite" path="M20,20 20,70 70,70 70,20 z" />
+    </circle>
+</svg>
